@@ -7,9 +7,9 @@
 
 
 
-
+    
 ## Expected Project
-~~1. hardware로 사용할 아두이노 보드 및 센서, 빵판 등등   ~~
+1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
 2. 온습도 센서 보드로 제어 & Serial output 확인  
 3. LCD 기판에 값(temperature, humidity, and so on) 뿌리기  
 4. 적외선 센서로 거리가 근접하면 LCD에 전화번호? 출력  
@@ -21,14 +21,14 @@
 
 
 
-
-## 구매목록 
-
-+ Arduino pro micro ATmega32u4 (3.3-5V, 소형, usb통신 내장)
-+ 빵판 *(bread board)
-+ 점퍼선, 절연 전선
-+ 적외선 센서 
-+ ESP8266 - WIFI 모듈 (HTTP 통신용)
-+ DHT-22 정밀 온습도 센서
-+ LCD 20x4 (좀큼)
-
+    
+## 구매목록
+| 품목 | 목적 | 비고 |
+|---|:---:|---:|
+| Arduino Pro micro ATmega32u4 | MCU 컴퓨터 보드 |  |
+| 빵판(bread board) | 몸통 역할 |  |
+| 점퍼선, 절연 전선 | 전기를 흐르게 해. |  |
+| 적외선 센서 | 거리를 측정하거나 물체 인지 |  |
+| ESP-8266  | WIFI를 사용할 수 있게 해줘 |  |
+| DHT-22 | 정밀 온습도 센서  |  |
+| LCD 20x4 | 데이터 간단하게라도 봐야지 |  |
