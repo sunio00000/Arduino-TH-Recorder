@@ -10,7 +10,7 @@
 ## 0. Enviroment
 
 - Window10-Arduino 64x
-- VSC, Arduino IDE        
+- VSC, Arduino IDE (DHT.h , )       
 --------------------------------------------------------    
 
 
