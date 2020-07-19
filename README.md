@@ -1,4 +1,4 @@
-# Arduino-TH-Recorder
+# Arduino-TH-Recorder 📟
 - Hardware for Recording Temperature-Humidity data and Visualization on firebase Cloud  
 - 구역의 온습도를 측정하고 클라우드로 기록하여 시각화.    
 
