@@ -8,10 +8,15 @@
 
 --------------------------------------------------------    
 ## 0. Enviroment
-
+### SOFTWARE
 - Window10-Arduino 64x
-- VSC, Arduino IDE (DHT.h , )        
---------------------------------------------------------    
+- VSC, Arduino IDE 
+- [DHT-sensor](https://github.com/adafruit/DHT-sensor-library)         
+- [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
+### HARDWARE
+- (하단 구매 목록 참고)
+- 
+------------------ --------------------------------------    
 
 
 ## 1. Have To Do
