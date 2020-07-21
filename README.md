@@ -24,7 +24,7 @@
 
 ## 1. Have To Do
 1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
-2. ~~온습도 센서 보드로 제어 & Serial output 확인  
+2. ~~온습도 센서 보드로 제어 & Serial output 확인~~
 3. LCD 기판에 값(temperature, humidity, and so on) 뿌리기  
 4. 적외선 센서로 거리가 근접하면 LCD에 전화번호? 출력  
 5. WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트  
