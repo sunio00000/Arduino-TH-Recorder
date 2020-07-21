@@ -15,9 +15,10 @@
 - [DHT-sensor](https://github.com/adafruit/DHT-sensor-library)         
 - [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
 ### HARDWARE
-- (하단 구매 목록 참고)
-- ![scheme](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
+- (2. 구매 목록 참고)
+- ![scheme1](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
 
+- ![Scheme2](https://user-images.githubusercontent.com/26760693/88068502-3f4bcd80-cbab-11ea-8757-75ffd818b2ff.jpg)  
 ------------------ --------------------------------------    
 
 
@@ -38,11 +39,12 @@
 ## 2. Purchase List
 | 품목 | 목적 | 비고 |
 |---|:---:|---:|
-| Arduino Pro micro ATmega32u4 | MCU 컴퓨터 보드 | ✔ |
+| Arduino Pro micro ATmega32u4 | MCU 컴퓨터 보드 | ❌ 2개 샀는데 실패야 |
+| Arduino Nano ATmega328P | MCU 컴퓨터 보드 | ✔ |
 | 빵판(bread board) | 몸통 역할 | ✔ |
 | 점퍼선, 절연 전선 | 전기를 흐르게 해. | ✔ |
 | 적외선 센서 | 거리를 측정하거나 물체 인지 | ✔ |
 | ESP-8266  | WIFI를 사용할 수 있게 해줘 | ✔ |
 | DHT-22 | 정밀 온습도 센서  | ✔ |
-| LCD 20x4 | 데이터 간단하게라도 봐야지 |  |
+| LCD 20x4 | 데이터 간단하게라도 봐야지 | ✔ |
 | | |
