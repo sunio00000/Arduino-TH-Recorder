@@ -17,8 +17,9 @@
 ### HARDWARE
 - (2. 구매 목록 참고)
 - ![scheme1](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
-
 - ![Scheme2](https://user-images.githubusercontent.com/26760693/88068502-3f4bcd80-cbab-11ea-8757-75ffd818b2ff.jpg)  
+- ![Scheme3](https://user-images.githubusercontent.com/26760693/88070811-10832680-cbae-11ea-8fa9-01a02a447c5f.png)  
+
 ------------------ --------------------------------------    
 
 
