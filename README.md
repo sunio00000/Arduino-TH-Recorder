@@ -16,7 +16,8 @@
 - [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
 ### HARDWARE
 - (하단 구매 목록 참고)
-- 
+- ![scheme](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
+
 ------------------ --------------------------------------    
 
 
