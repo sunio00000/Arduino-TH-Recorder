@@ -1,11 +1,11 @@
-# Arduino-TH-Recorder 📟
+# Arduino-TH-Recorder 📟  
 - Hardware for Recording Temperature-Humidity data and Visualization on firebase Cloud  
 - 구역의 온습도를 측정하고 클라우드로 기록하여 시각화.    
 
  > ISSUE LIST  
  > [200717] Arduino Pro micro 가 DHT 랑 안맞는지 작동을 안함  
  > [200719] 하나더 구매 했는데 이것도 안됨, 이젠 안되는건지 못하는건지 모르겟음  
- >   
+ > [200722] 빵판이 너무 작아서 쓰기가 어려움 - 배터리, WIFI모듈이 들어갈 자리가 없음  
 
 --------------------------------------------------------    
 ## 0. Enviroment
@@ -14,6 +14,7 @@
 - VSC, Arduino IDE 
 - [DHT-sensor](https://github.com/adafruit/DHT-sensor-library)         
 - [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
+- [LiquidCrystal](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 ### HARDWARE
 - (2. 구매 목록 참고)
 - ![scheme1](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
@@ -25,8 +26,8 @@
 
 ## 1. Have To Do
 1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
-2. ~~온습도 센서 보드로 제어 & Serial output 확인~~
-3. LCD 기판에 값(temperature, humidity, and so on) 뿌리기  
+2. ~~온습도 센서 보드로 제어 & Serial output 확인~~  
+3. ~~LCD 기판에 값(temperature, humidity, and so on) 뿌리기~~  
 4. 적외선 센서로 거리가 근접하면 LCD에 전화번호? 출력  
 5. WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트  
 6. raw data를 firebase server를 DB에 저장  
