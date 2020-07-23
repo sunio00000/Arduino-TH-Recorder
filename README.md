@@ -17,9 +17,9 @@
 - [LiquidCrystal](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 ### HARDWARE
 - (2. 구매 목록 참고)
-- ![scheme1](https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg)  
-- ![Scheme2](https://user-images.githubusercontent.com/26760693/88080089-8b9e0a00-cbb9-11ea-8283-2d7a3851af7d.png)
-- ![Scheme3](https://user-images.githubusercontent.com/26760693/88070811-10832680-cbae-11ea-8fa9-01a02a447c5f.png)  
+- <img src="https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg"  width="300" height="150">  
+- <img src="https://user-images.githubusercontent.com/26760693/88080089-8b9e0a00-cbb9-11ea-8283-2d7a3851af7d.png"  width="300" height="150">  
+- <img src="https://user-images.githubusercontent.com/26760693/88070811-10832680-cbae-11ea-8fa9-01a02a447c5f.png"  width="300" height="150">  
 
 ------------------ --------------------------------------    
 
@@ -28,7 +28,7 @@
 1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
 2. ~~온습도 센서 보드로 제어 & Serial output 확인~~  
 3. ~~LCD 기판에 값(temperature, humidity, and so on) 뿌리기~~
-![Log1](https://user-images.githubusercontent.com/26760693/88080350-e9caed00-cbb9-11ea-97f4-aa4d692da0cf.jpg)
+- <img src="https://user-images.githubusercontent.com/26760693/88080350-e9caed00-cbb9-11ea-97f4-aa4d692da0cf.jpg"  width="500" height="250">  
 4. 적외선 센서로 거리가 근접하면 LCD에 전화번호? 출력  
 5. WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트  
 6. raw data를 firebase server를 DB에 저장  
