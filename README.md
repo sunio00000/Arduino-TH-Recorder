@@ -30,7 +30,7 @@
 2. ~~온습도 센서 보드로 제어 & Serial output 확인~~  
 3. ~~LCD 기판에 값(temperature, humidity, and so on) 뿌리기~~
 - <img src="https://user-images.githubusercontent.com/26760693/88080350-e9caed00-cbb9-11ea-97f4-aa4d692da0cf.jpg"  width="500" height="250">  
-4. 적외선 센서로 거리가 근접하면 LCD에 전화번호? 출력  
+4. 3D 모델링 및 HW 구조 고민(보조 전원 장치 및 Frame을 어떻게)
 5. WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트  
 6. raw data를 firebase server를 DB에 저장  
 7. 저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export  
