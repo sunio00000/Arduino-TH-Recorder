@@ -15,6 +15,7 @@
 - [DHT-sensor](https://github.com/adafruit/DHT-sensor-library)         
 - [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
 - [LiquidCrystal](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+- [Firebase-ArudinoESP8266](https://github.com/FirebaseExtended/firebase-arduino)
 ### HARDWARE
 - (2. 구매 목록 참고)
 - <img src="https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg"  width="300" height="150">  
