@@ -38,7 +38,7 @@
 4. ~~3D 모델링 및 HW 구조 고민(보조 전원 장치 및 Frame을 어떻게)~~  
 5. ~~WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트~~
 6. ~~raw data를 firebase server를 DB에 저장~~  
-*  <img src="https://user-images.githubusercontent.com/26760693/88935829-21721d00-d2bd-11ea-85f7-6b993bbcc6f6.jpg" width="500" height="250">  
+*  <img src="https://user-images.githubusercontent.com/26760693/88939656-be36b980-d2c1-11ea-9d35-19902304468f.jpg" width="500" height="350">  
 6-0.  Firebase에 시계열 순으로 저장하도록 하기  
 6-1.  WeMos d1 r2에 Liquid Crystal 연결하여 출력하기  
 6-2.  3D 모델링 하기  
