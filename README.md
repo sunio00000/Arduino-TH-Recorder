@@ -20,6 +20,7 @@
   - [LiquidCrystal](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
   - [Firebase-ArudinoESP8266](https://github.com/FirebaseExtended/firebase-arduino)
   - [ESP8266 & Driver](http://blog.daum.net/rockjjy99/2453)
+  - [<I>__FIREBASE_DATABASE__</I>](https://console.firebase.google.com/u/0/project/arduino-th-firebase/database/arduino-th-firebase/data)  
 ### HARDWARE
 - (2. 구매 목록 참고)
 - <img src="https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg"  width="300" height="150">  
@@ -33,10 +34,14 @@
 1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
 2. ~~온습도 센서 보드로 제어 & Serial output 확인~~  
 3. ~~LCD 기판에 값(temperature, humidity, and so on) 뿌리기~~  
- <img src="https://user-images.githubusercontent.com/26760693/88080350-e9caed00-cbb9-11ea-97f4-aa4d692da0cf.jpg"  width="500" height="250">  
-4. 3D 모델링 및 HW 구조 고민(보조 전원 장치 및 Frame을 어떻게)
+*  <img src="https://user-images.githubusercontent.com/26760693/88080350-e9caed00-cbb9-11ea-97f4-aa4d692da0cf.jpg"  width="500" height="250">
+4. ~~3D 모델링 및 HW 구조 고민(보조 전원 장치 및 Frame을 어떻게)~~  
 5. ~~WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트~~
-6. ~~raw data를 firebase server를 DB에 저장~~    
+6. ~~raw data를 firebase server를 DB에 저장~~  
+*  <img src="https://user-images.githubusercontent.com/26760693/88935829-21721d00-d2bd-11ea-85f7-6b993bbcc6f6.jpg" width="500" height="250">  
+6-0.  Firebase에 시계열 순으로 저장하도록 하기  
+6-1.  WeMos d1 r2에 Liquid Crystal 연결하여 출력하기  
+6-2.  3D 모델링 하기  
 7. 저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export  
 8. 파일을 excel로 불러와 시계열적 그래프로 표현  
 9. 자동화(이건 좀 모르겠따.)         
