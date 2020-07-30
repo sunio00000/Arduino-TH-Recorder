@@ -1,3 +1,4 @@
+
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiAP.h>
 #include <ESP8266WiFiGeneric.h>
@@ -18,7 +19,7 @@
 #include <FirebaseHttpClient.h>
 #include <FirebaseObject.h>
 
-//#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 #include <DHT_U.h>
 #include <DHT.h> 
@@ -33,17 +34,18 @@
 // WIFI
 #define WIFI_SSID "U+Net4D48"
 #define WIFI_PASSWORD "47C0559#5J"
- 
+//swRTC rtc;
 DHT dht(DHTPIN, DHTTYPE);
-//LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 String humidity = "Humidity: ";
 String temperature = "Temperat: ";
-String hValue, tValue;
+String hValue, tValue, currentTime;
+int timeStamp = 1, freq = 0;
 void setup()
 {
-  //lcd.init();
-  //lcd.begin(20,4);
-  //lcd.backlight();
+  lcd.init();
+  lcd.begin(20,4);
+  lcd.backlight();
   dht.begin();
   Serial.begin(9600);
   Serial.println("DHT22 Sensor"); 
@@ -66,31 +68,36 @@ void setup()
 }
  
 void loop() {
-//  Firebase.setString("humidity/huValue","-1");
-//  Firebase.setString("temperature/teValue","-1");
-//  delay(2000);
   dht.read();
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-  
+  //currentTime = rtc.getYear()+rtc.getMonth()+rtc.getDay()+rtc.getHours()+rtc.getMinutes()+rtc.getSeconds()+"/";
   if (isnan(t) || isnan(h)) {
     Serial.println("Failed to read from DHT");
+    lcd.print("Failed to read from DHT");
   } 
   else {
     hValue = String(h,2); tValue = String(t,2);
-  //  lcd.setCursor(0,0);
-  //  lcd.print(humidity + hValue + "%");
-    Firebase.setString("humidity/huValue",hValue);
-    delay(300);
-  //  lcd.setCursor(0,1);
-  //  lcd.print(temperature + tValue + "'C");
-    Firebase.setString("temperature/teValue",tValue);
-    delay(300);
-  //  lcd.setCursor(7,2);
-  //  lcd.print("HI. I'm Sunio");
-  //  lcd.setCursor(3,3);
-  //  lcd.print("Call: 01091512551");
+    lcd.setCursor(0,0);
+    lcd.print(humidity + hValue + "%");
+    Serial.println("humidity :: "+ hValue + " / temperature :: "+ tValue);
+    lcd.setCursor(0,1);
+    lcd.print(temperature + tValue + "'C");
+    lcd.setCursor(7,2);
+    lcd.print("HI. I'm Sunio");
+    lcd.setCursor(3,3);
+    lcd.print("Call: 01091512551");
+    if(!(freq%= 5)){
+      Firebase.setString(String(timeStamp)+"/temperature/teValue",tValue);
+      delay(500);
+      Firebase.setString(String(timeStamp++)+"/humidity/huValue",hValue);
+      delay(500);
+    }
+    else{
+      delay(1000);
+    }
+    freq++;
   }
-  delay(2000);
-  //lcd.clear();
+  delay(1000);
+  lcd.clear();
  }
