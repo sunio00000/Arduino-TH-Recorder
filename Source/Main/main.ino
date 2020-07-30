@@ -23,7 +23,7 @@
 #include <DHT_U.h>
 #include <DHT.h> 
 
-#define DHTPIN 2 
+#define DHTPIN D3 
 #define DHTTYPE DHT22 
 
 // Firebase
@@ -66,31 +66,31 @@ void setup()
 }
  
 void loop() {
-  Firebase.setString("humidity/huValue","-1");
-  Firebase.setString("temperature/teValue","-1");
-  delay(2000);
-//  dht.read();
-//  float h = dht.readHumidity();
-//  float t = dht.readTemperature();
-//  
-//  if (isnan(t) || isnan(h)) {
-//    Serial.println("Failed to read from DHT");
-//  } 
-//  else {
-//    hValue = String(h,2); tValue = String(t,2);
-//  //  lcd.setCursor(0,0);
-//  //  lcd.print(humidity + hValue + "%");
-//    Firebase.setString("humidity/huValue",hValue);
-//    delay(300);
-//  //  lcd.setCursor(0,1);
-//  //  lcd.print(temperature + tValue + "'C");
-//    Firebase.setString("temperature/teValue",tValue);
-//    delay(300);
-//  //  lcd.setCursor(7,2);
-//  //  lcd.print("HI. I'm Sunio");
-//  //  lcd.setCursor(3,3);
-//  //  lcd.print("Call: 01091512551");
-//  }
+//  Firebase.setString("humidity/huValue","-1");
+//  Firebase.setString("temperature/teValue","-1");
 //  delay(2000);
-//  //lcd.clear();
+  dht.read();
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  
+  if (isnan(t) || isnan(h)) {
+    Serial.println("Failed to read from DHT");
+  } 
+  else {
+    hValue = String(h,2); tValue = String(t,2);
+  //  lcd.setCursor(0,0);
+  //  lcd.print(humidity + hValue + "%");
+    Firebase.setString("humidity/huValue",hValue);
+    delay(300);
+  //  lcd.setCursor(0,1);
+  //  lcd.print(temperature + tValue + "'C");
+    Firebase.setString("temperature/teValue",tValue);
+    delay(300);
+  //  lcd.setCursor(7,2);
+  //  lcd.print("HI. I'm Sunio");
+  //  lcd.setCursor(3,3);
+  //  lcd.print("Call: 01091512551");
+  }
+  delay(2000);
+  //lcd.clear();
  }
