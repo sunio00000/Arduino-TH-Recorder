@@ -40,11 +40,13 @@
 6. ~~raw data를 firebase server를 DB에 저장~~  
 *  <img src="https://user-images.githubusercontent.com/26760693/88939656-be36b980-d2c1-11ea-9d35-19902304468f.jpg" width="500" height="350">  
 6-0.  Firebase에 시계열 순으로 저장하도록 하기  
-6-1.  WeMos d1 r2에 Liquid Crystal 연결하여 출력하기  
+6-1.  ~~WeMos d1 r2에 Liquid Crystal 연결하여 출력하기~~  
 6-2.  3D 모델링 하기  
-7. 저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export  
-8. 파일을 excel로 불러와 시계열적 그래프로 표현  
-9. 자동화(이건 좀 모르겠따.)         
+7. ~~저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export~~    
+8. ~~파일을 excel로 불러와 시계열적 그래프로 표현~~  
+9. 자동화(이건 좀 모르겠따.)
+9-0. NPM (nodeJs) installed.
+9-1. try firebase access & file export  
 
 --------------------------------------------------------    
 
