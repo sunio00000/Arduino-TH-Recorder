@@ -14,17 +14,20 @@
 --------------------------------------------------------    
 ## 0. Enviroment
 ### SOFTWARE
-- Window10-Arduino 64x
-- VSC, Arduino IDE  
-- <b>사용된 라이브러리</b>  
+- OS :: Windows 10  
+- Tool :: VSC, Arduino IDE, npm  
+- language :: Cpp, python, node.js  
+- <b>Reference</b>  
   - [DHT-sensor](https://github.com/adafruit/DHT-sensor-library)         
   - [Adafruit-sensor](https://github.com/adafruit/Adafruit_Sensor)
   - [LiquidCrystal](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
   - [Firebase-ArudinoESP8266](https://github.com/FirebaseExtended/firebase-arduino)
   - [ESP8266 & Driver](http://blog.daum.net/rockjjy99/2453)
   - [<I>__FIREBASE_DATABASE__</I>](https://console.firebase.google.com/u/0/project/arduino-th-firebase/database/arduino-th-firebase/data)  
+  - [firebase-export](https://github.com/sinisavukovic/firebase-export)
 ### HARDWARE
 - (2. 구매 목록 참고)
+- ESP8266EX  
 - <img src="https://user-images.githubusercontent.com/26760693/88066284-8c7a7000-cba8-11ea-86d3-01b5af752ef0.jpg"  width="300" height="150">  
 - <img src="https://user-images.githubusercontent.com/26760693/88080089-8b9e0a00-cbb9-11ea-8283-2d7a3851af7d.png"  width="300" height="150">  
 - <img src="https://user-images.githubusercontent.com/26760693/88070811-10832680-cbae-11ea-8fa9-01a02a447c5f.png"  width="300" height="150">  
