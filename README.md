@@ -24,7 +24,8 @@
   - [Firebase-ArudinoESP8266](https://github.com/FirebaseExtended/firebase-arduino)
   - [ESP8266 & Driver](http://blog.daum.net/rockjjy99/2453)
   - [<I>__FIREBASE_DATABASE__</I>](https://console.firebase.google.com/u/0/project/arduino-th-firebase/database/arduino-th-firebase/data)  
-  - [firebase-export](https://github.com/sinisavukovic/firebase-export)
+  - [firebase-export](https://github.com/sinisavukovic/firebase-export)  
+  - [Time Print_ google 통해 시간 읽기](https://blog.naver.com/twophase/220767362317)
 ### HARDWARE
 - (2. 구매 목록 참고)
 - ESP8266EX  
@@ -44,7 +45,7 @@
 5. ~~WIFI 모듈 연결하고 NoSQL(Firebase realtime DB)에 접근 및 테스트~~
 6. ~~raw data를 firebase server를 DB에 저장~~  
 *  <img src="https://user-images.githubusercontent.com/26760693/88939656-be36b980-d2c1-11ea-9d35-19902304468f.jpg" width="500" height="350">  
-6-0.  Firebase에 시계열 순으로 저장하도록 하기  
+6-0.  ~~Firebase에 시계열 순으로 저장하도록 하기~~ (Time Stamp)   
 6-1.  ~~WeMos d1 r2에 Liquid Crystal 연결하여 출력하기~~  
 6-2.  3D 모델링 하기  
 7. ~~저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export~~    
@@ -52,8 +53,12 @@
 9. 자동화 프로그램 제작  
 9-0. ~~NPM (nodeJs) installed. firebase-export package download~~  
 9-1. ~~try firebase access & file export~~  
-9-2. json parsing & json to csv  
-9-3. plotting.
+9-2. ~~json parsing & json to csv~~ - json 으로 파싱 필요없어짐.  
+9-3. plotting.(python 프로그램 제작)  
+* <img src="https://user-images.githubusercontent.com/26760693/89207485-c65e6400-d5f5-11ea-9e9b-8869d90731c5.png" width="100" height="250"><img src="https://user-images.githubusercontent.com/26760693/89207552-e130d880-d5f5-11ea-811c-8f317758a900.png" width="100" height="250"><img src="https://user-images.githubusercontent.com/26760693/89207624-ff96d400-d5f5-11ea-9a0e-16a0b8ffbdaf.png" width="300" height="250">
+
+
+
 
 --------------------------------------------------------    
 
