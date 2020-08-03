@@ -49,7 +49,7 @@
 6-2.  3D 모델링 하기  
 7. ~~저장된 \*.json 파일을 \*.xml 혹은 \*.csv로 export~~    
 8. ~~파일을 excel로 불러와 시계열적 그래프로 표현~~  
-9. 자동화 프로그램 제작
+9. 자동화 프로그램 제작  
 9-0. ~~NPM (nodeJs) installed. firebase-export package download~~  
 9-1. ~~try firebase access & file export~~  
 9-2. json parsing & json to csv  
