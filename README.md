@@ -35,7 +35,7 @@
 ------------------ --------------------------------------    
 
 
-## 1. Have To Do
+## 1. To Do
 1. ~~hardware로 사용할 아두이노 보드 및 센서, 빵판 등등~~  
 2. ~~온습도 센서 보드로 제어 & Serial output 확인~~  
 3. ~~LCD 기판에 값(temperature, humidity, and so on) 뿌리기~~  
