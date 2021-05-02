@@ -2,7 +2,7 @@
 - Hardware for Recording Temperature-Humidity data and Visualization on firebase Cloud  
 - 구역의 온습도를 측정하고 클라우드로 기록하여 시각화.    
 
- > ISSUE LIST  
+ ## ISSUE LIST  
  > [200717] Arduino Pro micro 가 DHT 랑 안맞는지 작동을 안함  
  > [200719] 하나더 구매 했는데 이것도 안됨, 이젠 안되는건지 못하는건지 모르겟음  
  > [200722] 빵판이 너무 작아서 쓰기가 어려움 - 배터리, WIFI모듈이 들어갈 자리가 없음  
